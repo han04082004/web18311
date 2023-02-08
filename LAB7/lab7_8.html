@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bóng đá</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .text-nav > li {
+      display: inline-block; /* thẻ li của thẻ cha nằm ngang*/
+    }
+    .container .nav {
+      /*toàn bộ thẻ nav*/
+      display: flex; /*căn chỉnh*/
+      height: 50px;
+      width: 5000px;
+      background-color:rgb(184, 148, 148) ;
+      right: 0;
+      left: 0;
+      top: 0;
+      box-shadow: 0 0 10px #000; /* bóng*/
+      text-transform: uppercase; /* viết hoa*/
+    }
+    .container .nav ul {
+      /*ul cha*/
+      list-style-type: none; /*ẩn dấu chấm*/
+    }
+    .container .nav ul a {
+      /*thẻ con a của thẻ cha*/
+      text-decoration: none; /*ẩn gạch ngang*/
+      color: #fff;
+      display: flex;
+      padding: 16px;
+    }
+    .container .nav ul a:hover {
+      text-decoration: none;
+      color: rgb(225, 14, 14);
+      display: flex;
+      padding: 16px;
+      background-color: #333;
+    }
+    .container .nav .text-nav .sub-nav {
+      /* thẻ cháu sub-nav của text-nav*/
+      position: absolute;
+      display: none; /*ẩn*/
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .container .nav .text-nav .sub-nav a {
+      /*thẻ cháu a của sub-nav*/
+      display: flex;
+      font-weight: 300;
+      border-bottom: 1px solid #7e7e7e;
+      color: #000000;
+      min-width: 150px; /*giới hạn nhỏ nhất 150px*/
+      padding: 10px 20px;
+    }
+    .container .nav .text-nav .sub-nav a:hover {
+      color: #fffdfd;
+      background-color: #000;
+      font-weight: bold;
+    }
+    .container .nav .text-nav li:hover .sub-nav {
+      /*kích vào hiện thẻ con nav*/
+      display: block;
+    }
+    /*nav thẻ cha*/
+    /*text-nav thẻ con*/
+    /*sub-nav thẻ cháu*/
+  </style>
+  <body>
+    
+    <div class="container">
+      <div class="nav">
+        <img src="https://bongdaplus.vn/img/logo-tap-chi.png" alt="">
+        <ul class="text-nav">
+          <li>
+            <a href="">việt nam</a>
+            <ul class="sub-nav">
+              <li><a href="">aff cup</a></li>
+              <li><a href="">hạng nhất</a></li>
+              <li><a href="">bóng đá nữ</a></li>
+              <li><a href="">cup quốc gia</a></li>
+            </ul>
+          </li>
+          <li><a href="">pháp</a></li>
+          <li><a href="">nhật bản</a></li>
+          <li><a href="">đức</a></li>
+          <li><a href="">hàn quốc </a></li>
+          <li><a href="">anh</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

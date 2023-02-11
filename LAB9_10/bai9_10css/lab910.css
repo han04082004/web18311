@@ -1,0 +1,33 @@
+.login{
+    width: 400px;
+    height: 610px;
+    border: 1px solid gray;
+    border-radius:10px ;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+}
+h1{
+    color: blue;
+    font-family: sans-serif;
+}
+input{
+    width: 140px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+select{
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+button{
+    width: 140px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius:5px ;
+}
+.or{
+     width: 5px;
+     height: 2px;
+    
+}

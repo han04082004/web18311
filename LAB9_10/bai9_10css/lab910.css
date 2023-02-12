@@ -1,6 +1,6 @@
 .login{
-    width: 600px;
-    height: 550px;
+    width: 400px;
+    height: 560px;
     border: 1px solid gray;
     border-radius:10px ;
     box-shadow: 0 0 5px gray;
@@ -15,7 +15,7 @@ select{
     margin-bottom: 10px;
     border-radius:5px ;
 }
-input{
+.or input{
     width: 140px;
     height: 40px;
     margin-bottom: 10px;

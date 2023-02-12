@@ -1,0 +1,54 @@
+.login{
+    width: 497px;
+    height: 682 px;
+    border: 1px solid gray;
+    border-radius:10px ;
+    box-shadow: 0 0 5px gray;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: blue;
+}    
+select{
+    margin-bottom: 10px;
+    border-radius:5px ;
+    width: 160px;
+    height: 40px;
+}
+.oi input{
+    width: 221px;
+    height: 40px;
+     border-radius:5px ;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+.or input{
+    width: 468px;
+    height: 40px;
+    border-radius:5px ;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+.oh button:hover{
+    font-size: 15px;
+}
+button{
+    width: 160px;
+    height: 40px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.oh button{
+    width: 140px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius:5px ;
+    border:none;
+    background-color: rgb(94, 202, 94);
+    color: white;
+}

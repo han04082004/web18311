@@ -50,7 +50,15 @@ button{
     border:none;
     background-color: rgb(94, 202, 94);
     color: white;
+<<<<<<< HEAD
  }
  .r{
     text-align: center;
  }
+=======
+}
+.r{
+    text-align: center;
+ }
+}
+>>>>>>> 5e33f4110b54b58056fb7a3c0a6914214fa5e1e1

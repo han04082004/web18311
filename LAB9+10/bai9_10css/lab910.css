@@ -6,7 +6,6 @@
     box-shadow: 0 0 5px gray;
     font-family: sans-serif;
     padding: 20px;
-    text-align: center;
 }
 h1{
     color: blue;
@@ -51,4 +50,7 @@ button{
     border:none;
     background-color: rgb(94, 202, 94);
     color: white;
-}
+ }
+ .r{
+    text-align: center;
+ }

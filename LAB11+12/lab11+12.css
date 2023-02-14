@@ -1,6 +1,8 @@
 .table, th, td {
-    border: 1px solid black;
+    border: none;
     border-collapse: collapse;
+    border-radius:5px ;
+    
 }
 th, td{
     padding: 5px;
@@ -13,8 +15,27 @@ th{
     width: 50px;
 }
 .o1{
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 .oi{
     font-family: sans-serif;
+}
+input{
+    background-color: rgb(162, 221, 162);
+    border-radius: 10px;
+    color: green;
+}
+.oh button{
+    border-radius:10px;
+    background-color: rgb(185, 240, 187);
+    color: green;
+    border:none;
+
+}
+.oh1 button{
+    border-radius:10px;
+    background-color: rgb(235, 233, 233);
+    color: gray;
+    border:none;
+
 }

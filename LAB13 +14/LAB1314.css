@@ -1,12 +1,28 @@
 .a1{
     width: 497px;
     height: 682 px;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     border-radius:10px ;
-    box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
     font-family: sans-serif;
     padding: 10px;
     text-align: center;
     max-width: 960px;
     margin: 0 auto;
+    background-color:SeaShell;
  }
+ .a3{
+    box-shadow: 5px 5px 5px  gray;
+    border-radius: 5px;
+  }
+  .chu{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+  }
+h1{
+    color:rgb(0, 0, 0);
+    font-family:Courier New; 
+}
+h6{
+    font-family:Copperplate;
+}

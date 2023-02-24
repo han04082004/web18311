@@ -1,0 +1,87 @@
+ /**layout-----*/
+ a{
+    color: black;
+    text-decoration: none;
+
+ }
+ a:hover{
+    color: yellow;
+    text-decoration: underline;
+ }
+ header{
+  background-image: url(anh/banner.jpeg) ; 
+  padding-bottom: 15%;
+  background-size: 100%;
+ }
+ /*layuot----*/
+ /** nav*/
+ nav{
+    color: white;
+    font-variant: small-caps;
+    background-color: #F80;
+    line-height: 15px;
+   
+ }
+ .menubutton{
+    font-size: 17px;
+ }
+ .menubutton ul {
+    background: #77f;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+ }
+ .menubutton>ul>span>li{
+    display: inline-block;
+    width: 100px;
+ }
+ .menubutton ul li {
+    padding: 10px 10px 10px 10px;
+    position: relative;
+ }
+ .menubutton .menuright .search{
+    float: right;
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+  }
+  .menubutton .icon a{
+    float: right;
+    margin: 5px;
+  }
+  .menubutton .iconhome{
+    float: left;
+    margin: 5px;
+    padding: 0px 6px;
+  }
+  .menubutton .submenu{
+    position: absolute;
+    text-decoration:none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    border-radius:5px ;
+    line-height: none;
+    width: 185px;
+    background: white;
+  }
+  .menubutton .submenu a{
+    display: block;
+    line-height: 20px;
+    color: orangered;
+    padding: 0 10px;
+    z-index: 4px;
+
+  }
+  .menubutton .submenu li:hover{
+    background:orangered ;
+    border-radius: 5px;
+  }
+  .menubutton .submenu li:hover a{
+    color: white;
+  }
+  .menubutton>ul>span>li:hover>.submenu{
+    display:  block;
+  }
+ /*end nav*/

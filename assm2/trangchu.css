@@ -104,3 +104,8 @@ th td{
   padding: 22.5px;  
 
 }
+footer{
+  height: 350px;
+  background-color:gray;
+  clear: both;
+}

@@ -17,11 +17,11 @@ select{
     border-radius:5px ;
     width: 160px;
     height: 40px;
-}
+}   
 .oi input{
     width: 221px;
     height: 40px;
-     border-radius:5px ;
+    border-radius:5px ;
     border: 1px solid gray;
     padding-left: 20px;
 }

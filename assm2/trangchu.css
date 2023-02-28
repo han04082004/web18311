@@ -85,3 +85,22 @@
     display:  block;
   }
  /*end nav*/
+  
+.theA a {
+  padding: 30px;
+  margin: 20px;
+}
+aside{
+  min-height: 400px;
+  background:none;
+  width: 25%;
+  float: right;
+ }
+ .table, th, td {
+  border: 2px solid rgb(3, 3, 3);  
+  border-collapse: collapse; 
+}
+th td{
+  padding: 22.5px;  
+
+}

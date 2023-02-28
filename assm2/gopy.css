@@ -1,8 +1,48 @@
+#gopy{
+    width: 490px;
+    height: 682 px;
+    border: 1px solid gray;
+    border-radius:10px ;
+    box-shadow: 0 0 5px gray;
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
 .aa{
     height:170px;
     width: 100%;
-    background-color:rgb(84, 55, 247) ;
+    background-color:rgb(96, 68, 255) ;
+    border-radius: 10px;
 }
 .aa0{
     width: 50px;
+    
+}
+ button {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius:5px ;
+    border:none;
+    background-color: rgb(136, 139, 136);
+    color: white;
+    
+}
+.a2{
+    text-align: center;
+}
+.a3 button:hover{
+    font-size: 15px;
+}
+.a3{
+    text-align: center;
+}
+.a1 input{
+    width: 470px;
+    height: 40px;
+    border-radius:5px ;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding: 5px;
 }
